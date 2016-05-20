@@ -5,6 +5,18 @@
 
   `scrapy startproject jianshu`
 
+  工程目录：
+  jianshu/
+    scrapy.cfg
+    jianshu/
+        __init__.py
+        items.py
+        pipelines.py
+        settings.py
+        spiders/
+            __init__.py
+            ...
+
 运行scrapy爬虫
 
   `scrapy crawl yourspidername`
