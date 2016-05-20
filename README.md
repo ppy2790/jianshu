@@ -3,11 +3,15 @@
 
 创建scrapy工程
 
-`scrapy startproject jianshu`
+  `scrapy startproject jianshu`
 
 运行scrapy爬虫
 
-`scrapy crawl yourspidername`
+  `scrapy crawl yourspidername`
+
+可直接运行工程main.py文件
+
+` cmdline.execute("scrapy crawl jianshu".split())`
 
 
 
